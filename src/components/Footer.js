@@ -7,13 +7,21 @@ import logo from "../images/zomato-logo.avif";
 function Footer() {
   return (
     <div className="footer">
-      <div className="upper-footer max-width">
-        <img src={logo} className="header-logo" />
-        <div className="region">
-          <button className="footer-btn">India</button>
-          <button className="footer-btn">Language</button>
-        </div>
+      <div className="upper-footer max-width absolute-center">
+        <img src={logo} className="header-logo " />
       </div>
+      <div className="social max-width">
+        <a href="#" className="social-icon">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" className="social-icon">
+          <i class="fa-sharp fa-regular fa-envelope"></i>
+        </a>
+        <a href="#" className="social-icon">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div className="footer-line absolute-center">Made by Aryavir Malik</div>
     </div>
   );
 }
