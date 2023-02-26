@@ -50,7 +50,16 @@ const Tabs = ({ activeTab, setActiveTab }) => {
                     activeTab === tab.name ? tab.backdrop : ""
                   }`,
                 }}
-              ></div>
+              >
+                <img
+                  className="tab-image"
+                  alt={tab.name}
+                  src={
+                    activeTab === tab.name ? tab.active_img : tab.inactive_img
+                  }
+                />
+              </div>
+              <div className="tab-name">{tab.name}</div>
             </div>
           );
         })}
