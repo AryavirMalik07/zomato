@@ -11,13 +11,13 @@ function Footer() {
         <img src={logo} className="header-logo " />
       </div>
       <div className="social max-width">
-        <a href="#" className="social-icon">
+        <a href="http://linkedin.com/in/aryavirmalik07" className="social-icon">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="#" className="social-icon">
+        <a href="mailto:aryavirmalik20@gmail.com" className="social-icon">
           <i class="fa-sharp fa-regular fa-envelope"></i>
         </a>
-        <a href="#" className="social-icon">
+        <a href="https://github.com/AryavirMalik07" className="social-icon">
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
